@@ -1,27 +1,20 @@
 {
-  "name": "confirmation-popover-component",
-  "description": "Popover component",
+  "name": "component-confirmation-popover",
+  "description": "Popover confirmation component",
   "version": "1.0.1",
   "keywords": [
-    "confirmation",
     "confirm",
+    "confirmation",
     "popover",
-    "component"
+    "ui"
+  ],
+  "styles": [
+    "popover.css"
   ],
   "dependencies": {
-    "popover-component": "*"
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-popover": "git://github.com/npmcomponent/component-popover.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git"
   },
-  "component": {
-    "styles": [
-      "popover.css"
-    ],
-    "scripts": {
-      "confirmation-popover/index.js": "index.js",
-      "confirmation-popover/template.js": "template.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/confirmation-popover.git"
-  }
+  "license": "MIT"
 }

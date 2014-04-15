@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var Popover = require('popover');
-var q = require('query');
-var inherit = require('inherit');
+var Popover = require('component-popover');
+var q = require('component-query');
+var inherit = require('component-inherit');
 
 /**
  * Expose `ConfirmationPopover`.
